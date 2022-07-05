@@ -39,7 +39,7 @@ For this example, let's create a project from scratch and make into a git reposi
 
 - Use __Tools__ >> __Git log__ to check the repository status.
 
-![image](https://user-images.githubusercontent.com/54443595/177304496-80fce339-26d2-4f90-8c0c-bf69a6e12849.png)
+![image](https://user-images.githubusercontent.com/54443595/177304939-bd0d892d-2b0a-4221-8a44-1d6bd5267bef.png)
 
 
 ### Starting from a remote repository
