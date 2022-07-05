@@ -21,7 +21,7 @@ If you need a general introduction to version control with Git, then we recommen
 - Before launching the Embedded Workbench, deploy [`<install_dir>\common\config\tortoisegit.toolitems`](common/config/tortoisegit.toolitems).
 - Launch the Embedded Workbench.
 
-## Simple example: local repository
+## Simple example: starting from a local repository
 - Select __File__ >> __New project__ >> __C project__.
 - Save the project.
 - Build the project.
@@ -30,7 +30,7 @@ If you need a general introduction to version control with Git, then we recommen
 - Select __Tools__ >> __Git commit__, enter with `Initial commit` as the commit message, select __All__ files >> __OK__.
 - Use __Tools__ >> __Git status__ to check the repository status.
 
-## Simple example: remote repository
+## Simple example: starting from a remote repository
 For this, let's use this repository as an example on how to clone an existing repository from a Git server.
 
 - Select __Tools__ >> __Git clone__.
