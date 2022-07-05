@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<tools>
+
+  <item>
+  <label>Git init</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:repocreate /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git add</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:add /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git remove (selected file)</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:remove /path:$FILE_PATH$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git generate ignore</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:ignore /path:"$PROJ_DIR$/Debug*$PROJ_DIR$/Release*$PROJ_DIR$/settings*$PROJ_DIR$/$PROJ_FNAME$.dep</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git revert</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:revert /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git cleanup</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:cleanup /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git commit</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:commit /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git pull</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:pull /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git push</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:push /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git branch</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:branch /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git tag</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:tag /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git status</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:repostatus /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git browser</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:repobrowser /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git log</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:log /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item>
+  
+  <item>
+  <label>Git settings</label>
+  <cmd>tortoisegitproc</cmd>
+  <args>/command:settings /path:$PROJ_DIR$</args>
+  <initdir></initdir>
+  <availability>0</availability>
+  <prompt>0</prompt>
+  <redirect>0</redirect>
+  </item> 
+</tools>
