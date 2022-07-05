@@ -25,20 +25,32 @@ If you need a general introduction to version control with Git, then we recommen
 ## Examples
 
 ### Starting from a local repository
-- Select __File__ >> __New project__ >> __C project__.
-- Save the project.
-- Build the project.
+For this example, let's create a project from scratch and make into a git repository within the IDE.
+- Select __File__ >> __New Workspace__.
+- Select __Project__ >> __Create new project__ >> __C__ >> __main__.
+- Save the project in a new empty folder (e.g., `%USERPROFILE%\Documents\project`).
+- Build the project (<kbd>F7</kbd>).
+- Save the workspace.
 - Select __Tools__ >> __Git init__ >> __OK__.
 - Select __Tools__ >> __Git generate ignore__ >> __OK__.
-- Select __Tools__ >> __Git commit__, enter with `Initial commit` as the commit message, select __All__ files >> __OK__.
-- Use __Tools__ >> __Git status__ to check the repository status.
+- Select __Tools__ >> __Git commit__, enter with `Initial commit` as the commit message, select __All__ files >> __Commit__.
+
+![image](https://user-images.githubusercontent.com/54443595/177304054-ae297fde-8da2-422c-98c8-c09485dea8bd.png)
+
+- Use __Tools__ >> __Git log__ to check the repository status.
+
+![image](https://user-images.githubusercontent.com/54443595/177304496-80fce339-26d2-4f90-8c0c-bf69a6e12849.png)
+
 
 ### Starting from a remote repository
-For this, let's use this repository as an example on how to clone an existing repository from a Git server.
+For this, let's use this repository, which contains a workspace, as an example on how to clone an existing repository from a Git server.
 
 - Select __Tools__ >> __Git clone__.
 - Set URL to: `https://github.com/felipe-iar/ew-tortoise-integration`.
-- Click __Clone__ and __Close__ the window.
+- Click __OK__ and __Close__ the window.
+
+![image](https://user-images.githubusercontent.com/54443595/177302052-d097500c-3b90-4a72-a38d-5cda5f721128.png)
+
 - Select __File__ >> __Open Workspace__ >> `%USERPROFILE%\Documents\ew-tortoise-integration\project.eww`.
 
 ## Tips
