@@ -8,7 +8,7 @@ Git is an open source, distributed version control system designed to handle eve
 This article introduces how to use TortoiseGit with EWARM.
 
 ## Typical project development workflow with Git
-A git server contains the project repository which, in the Git jargon, is referred as _origin_. Each developer make a local copy by __cloning__ the _origin_ to his PC and starts to perform incremental changes to the source code. Each change must be __commited__ to the local repository. After the developer is finished with the modifications, he __pushes__ the code back to the _origin_.
+A git server contains the project repository which, in the Git jargon, is referred as _origin_. Each developer makes a local copy by __cloning__ the _origin_ to his PC and starts to perform incremental changes to the source code. Each change must be __commited__ to the local repository. After the developer is finished with the modifications, he __pushes__ the code back to the _origin_.
 
 <!-- ![Typical program development flow with Git](https://user-images.githubusercontent.com/54443595/177169038-5a1fc4d2-b788-4d0c-a28f-9730f453066b.png) -->
 ![git-flow](https://user-images.githubusercontent.com/54443595/177320275-de058327-31d0-4e58-82a8-11f8899efaf2.svg)
